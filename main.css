@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+body {
+    background-color: #fefecb;
+    padding-top: 150px;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+form {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#form-tarefas {
+    text-align: center;
+    margin: 10px auto 40px auto;
+}
+
+form button {
+    background-color: #FFF;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    border-color: #000;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 8px;
+}
+
+form input {
+    font-size: 30px;
+    background-color: #FFF;
+    border-color: #000;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    display: contents;
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+    font-size: 30px;
+    border: 2px solid #000;
+    padding: 8px;
+    margin-bottom: 2px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #000;
+    color: #FFF;
+}
